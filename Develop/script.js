@@ -11,24 +11,6 @@ var generateBtn = document.querySelector("#generate");
 
 // identifying and creating arguments for password
 
-const getKey = [
-  function upperCase() {
-    return keys.upperCase[Math.floor(Math.random() * keys.upperCase.length)];
-  },
-  function lowerCase() {
-    return keys.lowerCase[Math.floor(Math.random() * keys.lowerCase.length)];
-  },
-  function number() {
-    return keys.number[Math.floor(Math.random() * keys.number.length)];
-  },
-  function symbol() {
-    return keys.symbol[Math.floor(Math.random() * keys.symbol.length)];
-  },
-  
-];
-
-
-
 function generatePassword () {
   
   console.log ("Generating Password!")
@@ -39,17 +21,13 @@ function generatePassword () {
 
   // Upper & Lower Characters 
     window.alert ("Do you want your password to have upper and lowercase letters?");
-      const upper = document.getElementById("upperCase").checked;
-      const lower = document.getElementById("lowerCase").checked;
-
+      
   // Numbers or no numbers 
     window.alert ("Would you like your passord to have numbers?"); 
-      const number = document.getElementById("number");
 
 
   //Special Characters
     window.alert ("Do you want your password to have special characters?");
-      const symbol = document.getElementById("symbol");
   
       return "Generated Password";
 }
