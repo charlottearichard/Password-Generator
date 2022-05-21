@@ -1,4 +1,4 @@
-<h1 align="center"> Challenge N.3: Password Generator 🙌🏾 FINISHED 🙌🏾  </h1>
+<h1 align="center"> Module 3: Password Generator 🙌🏾 FINISHED 🙌🏾  </h1>
 
 <h2> Criteria </h2> 
 <p> ✅ Generate button initiates window pop-ups </p>
